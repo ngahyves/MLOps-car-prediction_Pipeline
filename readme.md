@@ -1,3 +1,4 @@
+
 # End-to-End MLOps Pipeline for Used Car Price Estimation
 
 ![image](https://github.com/user-attachments/assets/59650abe-163d-4f7f-9fcd-f8aa97562b03)
@@ -134,4 +135,3 @@ Implement data and model monitoring to detect drift.
 Add more comprehensive unit and integration tests.
 Switch the backend store for MLflow to a more robust database like PostgreSQL.
 Generated code
-
