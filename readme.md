@@ -1,9 +1,6 @@
-
 # End-to-End MLOps Pipeline for Used Car Price Estimation
 
-![image](https://github.com/user-attachments/assets/59650abe-163d-4f7f-9fcd-f8aa97562b03)
- 
-The data set is available on kaggle: https://www.kaggle.com/datasets/austinreese/craigslist-carstrucks-data
+![Project GIF](https://github.com/user-attachments/assets/59650abe-163d-4f7f-9fcd-f8aa97562b03)
 
 ## 🌟 Overview
 
@@ -13,7 +10,7 @@ The core idea is not just to build a model, but to build a **robust system** tha
 
 ### Key Features:
 - **Real-World Problem:** Solves the universal business problem of asset valuation.
-- **Full MLOps Lifecycle:** Covers data ingestion, preprocessing, experiment tracking, model containerization, CI/CD, and deployment.
+- **Full MLOps Lifecycle:** Covers data ingestion, preprocessing, experiment tracking, model containerization, CI/CD, and deployment orchestration.
 - **Production-Ready Simulation:** The pipeline mimics a professional workflow: Raw Data -> Database -> Preprocessing -> Training -> Deployment.
 - **Diverse Skillset:** Showcases expertise in database management (SQLite), regression modeling, software engineering (REST API), and MLOps practices (MLflow, Docker, GitHub Actions).
 
@@ -25,7 +22,7 @@ The core idea is not just to build a model, but to build a **robust system** tha
 - **Database:** `SQLite`
 - **ML Experiment Tracking:** `MLflow`
 - **API Development:** `FastAPI`
-- **Containerization:** `Docker`, `Docker Compose`
+- **Containerization & Orchestration:** `Docker`, `Docker Compose`
 - **CI/CD Automation:** `GitHub Actions`
 - **Interactive Dashboard:** `Streamlit`
 
@@ -33,105 +30,76 @@ The core idea is not just to build a model, but to build a **robust system** tha
 
 ## 🚀 Project Architecture
 
-![Screenshot 2025-07-02 164109](https://github.com/user-attachments/assets/ede7d169-52bc-4181-aeb6-6af1c43aab88)
+The project is structured as an automated pipeline where each component is a modular script or a containerized service.
 
-
-The project is structured as an automated pipeline, where each component is a modular script or a containerized service.
-
-
- <!-- Un diagramme simple serait un énorme plus ! Vous pouvez utiliser des outils comme diagrams.net (draw.io) -->
+![Architecture Diagram](https://github.com/user-attachments/assets/ede7d169-52bc-4181-aeb6-6af1c43aab88)
 
 ### The Pipeline Stages:
-
-1.  **Data Ingestion (`ingest_data.py`):** Raw data from a Kaggle CSV file is loaded into a centralized SQLite database (`cars.db`). This step is idempotent, ensuring a clean and consistent starting point for the pipeline.
-2.  **Preprocessing & Feature Engineering (`preprocess.py`):** Data is cleaned, and new features (e.g., `car_age`) are engineered. Categorical variables are transformed using one-hot encoding, and the processed data is prepared for model training.
-3.  **Model Training & Experiment Tracking (`train.py`):**
-    -   Multiple regression models (e.g., Linear Regression, RandomForest, XGBoost) are trained.
-    -   **MLflow** is used to log every experiment, tracking parameters, metrics (R², MAE, RMSE), and artifacts (the model itself).
-    -   The best-performing model is identified and saved as `best_model.pkl`.
-4.  **API Deployment (`api.py` & `Dockerfile`):**
-    -   A **FastAPI** REST API is created to serve the `best_model.pkl`. It exposes a `/predict` endpoint that takes car features as input and returns a price estimation.
-    -   The API is containerized using **Docker**, creating a portable and isolated environment for deployment.
-5.  **Continuous Integration & Delivery (CI/CD):**
-    -   A **GitHub Actions** workflow automates testing and deployment.
-    -   **CI:** On every push, the workflow installs dependencies, runs tests, builds the Docker image, and pushes it to a container registry (e.g., Docker Hub).
-    -   **CD (Optional):** Automatically deploys the new image to a cloud platform.
-6.  **User Interface & Orchestration (`dashboard.py` & `docker-compose.yml`):**
-    -   A user-friendly **Streamlit** dashboard provides an interface for real-time price predictions by calling the FastAPI backend.
-    -   **Docker Compose** orchestrates all services (API, Dashboard), allowing the entire multi-container application to be launched with a single command.
+1.  **Data Ingestion (`ingest_data.py`):** Raw data from a Kaggle CSV file is loaded into a centralized SQLite database (`cars.db`).
+2.  **Preprocessing (`preprocess.py`):** Data is cleaned, and features are engineered for model training.
+3.  **Model Training & Tracking (`train.py`):** Multiple models are trained and their performance is tracked with **MLflow**. The best model is saved.
+4.  **API Serving (`api.py` & `Dockerfile`):** A **FastAPI** REST API serves the best model. The API is containerized with **Docker**.
+5.  **CI/CD Automation (`.github/workflows/ci.yml`):** A **GitHub Actions** workflow automatically builds the Docker image and pushes it to Docker Hub on every change to the `main` branch.
+6.  **User Interface & Orchestration (`dashboard.py` & `docker-compose.yml`):** A **Streamlit** dashboard provides a user-friendly interface for predictions. **Docker Compose** orchestrates both the API and dashboard services, allowing them to run together seamlessly.
 
 ---
 
-## 🏁 How to Run This Project Locally
+## 🏁 Getting Started
 
 ### Prerequisites
-- Docker and Docker Compose installed.
-- Git.
-- A Kaggle account to download the dataset (or provide the dataset file).
+- Docker & Docker Compose
+- Git
+- A web browser
 
-### Step 1: Clone the Repository
-```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+### Run the Full Application
+This is the recommended way to run the project. The single command below will build the necessary Docker images and launch the interconnected API and dashboard services.
 
-### Step 2: Set up the Data
--Download the "Used Car Dataset" from Kaggle and place the CSV file in a data/ directory at the root of the project.
--You might need to update the path in ingest_data.py if necessary.
+1.  **Clone the repository:**
+    ```shell
+    git clone https://github.com/ngahyves/MLOps-car-prediction_Pipeline.git
+    cd MLOps-car-prediction_Pipeline
+    ```
 
-### Step 3: Run the Full Pipeline Manually (Step-by-Step)
-This allows you to see each component in action.
-#### a-Ingest Data into the Database:
+2.  **Generate the model file:**
+    Since the trained model is not versioned in Git, you need to generate it locally first. Run the training script in "fast mode" to create the `best_model.pkl` file in a few minutes.
+    ```shell
+    python train.py --mode fast
+    ```
 
-bash
-python src/ingest_data.py
+3.  **Run the application with Docker Compose:**
+    ```shell
+    docker-compose up --build
+    ```
 
-#### b-Preprocess the Data:
-bash
-python src/preprocess.py
+4.  **Interact with the services:**
+    -   **Interactive Dashboard:** Open your browser and go to `http://localhost:8501`
+    -   **API Documentation:** Access the FastAPI docs at `http://localhost:8000/docs`
 
-#### c-Train the Model and Track with MLflow:
-bash
-python src/train.py
+---
 
-
-#### d-To view the experiments, run the MLflow UI in a separate terminal:
-bash
-mlflow ui
-
-bash
-Then, open http://127.0.0.1:5000 in your browser.
-
-### Step 4: Run the Full Application with Docker Compose
-This is the easiest way to see the final product. It will build the images for the API and the dashboard and run them as interconnected services.
-bash
-docker-compose up --build
-
-Once the services are running:
-API: Access the interactive API documentation at http://localhost:8000/docs.
-Dashboard: Interact with the user-friendly application at http://localhost:8501.
-
-📂 Project Structure
-Generated code
+## 📂 Project Structure
 .
-├── .github/workflows/      # CI/CD pipeline configuration
-├── data/                   # Raw data (e.g., from Kaggle)
-├── src/                    # Source code for the pipeline
-│   ├── ingest_data.py
-│   ├── preprocess.py
-│   ├── train.py
-│   ├── api.py
-│   └── dashboard.py
-├── best_model.pkl          # Saved model from the training script
-├── cars.db                 # SQLite database
-├── docker-compose.yml      # Orchestration for all services
-├── Dockerfile              # Docker configuration for the API
-├── mlruns/                 # MLflow experiment tracking data
-├── requirements.txt        # Python dependencies
+├── .github/workflows/ # CI/CD pipeline for Docker image automation
+├── models/ # Output for the trained model (ignored by Git)
+├── .dockerignore # Specifies files to ignore for Docker builds
+├── .gitignore # Specifies files to ignore for Git
+├── api.py # FastAPI application script
+├── dashboard.py # Streamlit dashboard script
+├── docker-compose.yml # Orchestration for all services
+├── Dockerfile # Docker configuration for the API
+├── Dockerfile.dashboard # Docker configuration for the Dashboard
+├── ingest_data.py # Script for data ingestion
+├── preprocess.py # Script for data preprocessing
+├── train.py # Script for model training (configurable with --mode)
+├── requirements.txt # Python dependencies for the API
+├── requirements.dashboard.txt # Python dependencies for the Dashboard
 └── README.md
+> **Note on Data and Models:** The raw data (`vehicles.csv`), the database (`cars.db`), the MLflow tracking data (`mlruns/`), and the final model (`models/best_model.pkl`) are not versioned in this repository as per best practices. They are generated locally when you run the pipeline scripts.
 
-✨ Future Improvements
-Deploy the CD pipeline to a cloud provider like AWS or Heroku.
-Implement data and model monitoring to detect drift.
-Add more comprehensive unit and integration tests.
-Switch the backend store for MLflow to a more robust database like PostgreSQL.
-Generated code
+---
+
+## ✨ Future Improvements
+- Deploy the entire application to a cloud provider like AWS or Heroku using a CD (Continuous Deployment) workflow.
+- Implement data and model monitoring to detect drift over time.
+- Add more comprehensive unit and integration tests for the API and data processing steps.
+- Switch the MLflow backend store to a more robust database like PostgreSQL for multi-user collaboration.
