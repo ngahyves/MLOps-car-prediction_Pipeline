@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/Yves-Ricky/Desktop/Car_Price_Estimator/mlruns/658507925977606953/465cf5c54b6a42e587d2d78114748063/artifacts
+end_time: 1751449277766
+entry_point_name: ''
+experiment_id: '658507925977606953'
+lifecycle_stage: active
+run_id: 465cf5c54b6a42e587d2d78114748063
+run_name: Opt_XGBoost
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751449196526
+status: 3
+tags: []
+user_id: Yves-Ricky

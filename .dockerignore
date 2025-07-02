@@ -1,0 +1,29 @@
+# .dockerignore
+
+# ---------------------------------------------------
+*.csv
+*.db
+*.parquet
+# ---------------------------------------------------
+
+# Experiments files
+mlruns/
+artifacts/
+
+# Cache files
+.ipynb_checkpoints/
+.virtual_documents/
+__pycache__/
+.vscode/
+.idea/
+
+# Virtual environment
+.venv/
+venv/
+env/
+.env/
+
+# Git and github files
+.git/
+.gitignore
+.github/

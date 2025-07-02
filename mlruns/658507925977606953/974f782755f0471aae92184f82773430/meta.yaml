@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/Yves-Ricky/Desktop/Car_Price_Estimator/mlruns/658507925977606953/974f782755f0471aae92184f82773430/artifacts
+deleted_time: 1751413569652
 end_time: 1751403474523
 entry_point_name: ''
 experiment_id: '658507925977606953'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 974f782755f0471aae92184f82773430
 run_name: Base_XGBoost Base
 source_name: ''

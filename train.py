@@ -109,10 +109,8 @@ print("\n--- 7. Hyper parameters optimization ---")
 # Paremeters grids for RandomizedSearchCV
 param_grids = {
     "Random Forest": {
-        'regressor__n_estimators': [50, 100, 200],
+        'regressor__n_estimators': [50, 100],
         'regressor__max_depth': [10, 20, 30, None],
-        'regressor__min_samples_split': [2, 5, 10],
-        'regressor__min_samples_leaf': [1, 2, 4]
     },
     "XGBoost": {
         'regressor__n_estimators': [100, 200, 300],

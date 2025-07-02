@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/Yves-Ricky/Desktop/Car_Price_Estimator/mlruns/658507925977606953/c34d83d8ae3c4e799b9ee3f8ba54cc0b/artifacts
+end_time: 1751433960153
+entry_point_name: ''
+experiment_id: '658507925977606953'
+lifecycle_stage: active
+run_id: c34d83d8ae3c4e799b9ee3f8ba54cc0b
+run_name: Base_Ridge
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751433957142
+status: 3
+tags: []
+user_id: Yves-Ricky

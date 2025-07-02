@@ -130,7 +130,7 @@ def get_preprocessed_data():
     ]
     existing_columns = [col for col in final_columns_to_keep if col in df.columns]
     df_final = df[existing_columns]
-    
+    #Creating meta data
     print("-> Simple metadata creations...")
     metadata = { 'categorical_columns': {} }
     categorical_cols_for_dashboard = ['manufacturer', 'model_reduced', 'transmission', 'fuel', 'title_status']
@@ -142,7 +142,7 @@ def get_preprocessed_data():
 
 # Step 6: define the main function
 def main():
-    df_final = get_preprocessed_data()
+    df_final, metadata = get_preprocessed_data()
     
     # Saving the data set cleaned
     df_final.to_csv(OUTPUT_CLEANED_CSV, index=False)

@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/Yves-Ricky/Desktop/Car_Price_Estimator/mlruns/658507925977606953/46f5eb6943054bad8c2eb7bb3f5ee4a1/artifacts
+deleted_time: 1751413569937
 end_time: 1751398452065
 entry_point_name: ''
 experiment_id: '658507925977606953'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 46f5eb6943054bad8c2eb7bb3f5ee4a1
 run_name: Base_Ridge
 source_name: ''

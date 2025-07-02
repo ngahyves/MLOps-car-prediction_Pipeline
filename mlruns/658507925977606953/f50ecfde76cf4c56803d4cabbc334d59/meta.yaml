@@ -1,14 +1,15 @@
 artifact_uri: file:///C:/Users/Yves-Ricky/Desktop/Car_Price_Estimator/mlruns/658507925977606953/f50ecfde76cf4c56803d4cabbc334d59/artifacts
-end_time: null
+deleted_time: 1751413569669
+end_time: 1751407432662
 entry_point_name: ''
 experiment_id: '658507925977606953'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: f50ecfde76cf4c56803d4cabbc334d59
 run_name: Opt_Random Forest
 source_name: ''
 source_type: 4
 source_version: ''
 start_time: 1751403474534
-status: 1
+status: 4
 tags: []
 user_id: Yves-Ricky
