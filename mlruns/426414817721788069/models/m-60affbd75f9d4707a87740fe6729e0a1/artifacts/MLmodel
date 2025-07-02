@@ -1,0 +1,22 @@
+artifact_path: file:///C:/Users/Yves-Ricky/Desktop/Car_Price_Estimator/mlruns/426414817721788069/models/m-60affbd75f9d4707a87740fe6729e0a1/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.9.23
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+mlflow_version: 3.1.1
+model_id: m-60affbd75f9d4707a87740fe6729e0a1
+model_size_bytes: 2429
+model_uuid: m-60affbd75f9d4707a87740fe6729e0a1
+prompts: null
+run_id: 410492a45eae45f1a55b23b74e8bb4bc
+utc_time_created: '2025-06-27 18:55:09.214485'

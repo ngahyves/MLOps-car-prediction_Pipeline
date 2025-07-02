@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Yves-Ricky/Desktop/Car_Price_Estimator/mlruns/426414817721788069/96d2f3fb83c240b4b16d76dff1069b73/artifacts
+deleted_time: 1751089787613
+end_time: 1751086568279
+entry_point_name: ''
+experiment_id: '426414817721788069'
+lifecycle_stage: deleted
+run_id: 96d2f3fb83c240b4b16d76dff1069b73
+run_name: XGBOOST
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751086565859
+status: 4
+tags: []
+user_id: Yves-Ricky

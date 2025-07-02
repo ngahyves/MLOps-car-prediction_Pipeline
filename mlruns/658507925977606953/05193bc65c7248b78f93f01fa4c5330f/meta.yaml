@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/Yves-Ricky/Desktop/Car_Price_Estimator/mlruns/658507925977606953/05193bc65c7248b78f93f01fa4c5330f/artifacts
+end_time: 1751400853777
+entry_point_name: ''
+experiment_id: '658507925977606953'
+lifecycle_stage: active
+run_id: 05193bc65c7248b78f93f01fa4c5330f
+run_name: Base_Linear Regression
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751400848796
+status: 3
+tags: []
+user_id: Yves-Ricky

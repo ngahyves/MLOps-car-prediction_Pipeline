@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Yves-Ricky/Desktop/Car_Price_Estimator/mlruns/426414817721788069/fd758f88a5204d6489e5e3b802a36522/artifacts
+deleted_time: 1751036121916
+end_time: 1751035863935
+entry_point_name: ''
+experiment_id: '426414817721788069'
+lifecycle_stage: deleted
+run_id: fd758f88a5204d6489e5e3b802a36522
+run_name: linear regression
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751035861765
+status: 4
+tags: []
+user_id: Yves-Ricky

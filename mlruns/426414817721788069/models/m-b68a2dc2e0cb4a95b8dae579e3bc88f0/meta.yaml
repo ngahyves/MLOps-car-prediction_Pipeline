@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/Yves-Ricky/Desktop/Car_Price_Estimator/mlruns/426414817721788069/models/m-b68a2dc2e0cb4a95b8dae579e3bc88f0/artifacts
+creation_timestamp: 1751056218792
+experiment_id: '426414817721788069'
+last_updated_timestamp: 1751056231297
+model_id: m-b68a2dc2e0cb4a95b8dae579e3bc88f0
+model_type: null
+name: lr_model_base
+source_run_id: 18f4578251c540de86f7760f39f44394
+status: 2
+status_message: null

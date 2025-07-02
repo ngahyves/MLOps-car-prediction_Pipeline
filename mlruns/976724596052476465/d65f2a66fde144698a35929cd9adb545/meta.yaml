@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Yves-Ricky/Desktop/Car_Price_Estimator/mlruns/976724596052476465/d65f2a66fde144698a35929cd9adb545/artifacts
+deleted_time: 1751160108204
+end_time: null
+entry_point_name: ''
+experiment_id: '976724596052476465'
+lifecycle_stage: deleted
+run_id: d65f2a66fde144698a35929cd9adb545
+run_name: Random_Forest_Optimized
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751150344875
+status: 1
+tags: []
+user_id: Yves-Ricky

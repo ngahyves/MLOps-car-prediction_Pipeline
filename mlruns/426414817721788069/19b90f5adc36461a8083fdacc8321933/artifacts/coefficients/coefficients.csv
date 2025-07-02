@@ -1,0 +1,260 @@
+feature,coefficient
+cat__manufacturer_datsun,0.9039460206249519
+cat__manufacturer_tesla,0.8717910949563484
+cat__model_reduced_corvette,0.7979952214066286
+cat__model_reduced_corvette grand sport,0.7211497269545386
+cat__manufacturer_porsche,0.676913476759637
+cat__model_reduced_titan,0.6073213872438424
+cat__fuel_diesel,0.5914930661710286
+cat__model_reduced_tundra,0.57600461663025
+cat__model_reduced_silverado 3500hd,0.5725257131764497
+cat__model_reduced_escalade,0.5661855291883928
+cat__model_reduced_wrangler unlimited,0.5390928712311969
+cat__model_reduced_s-class,0.5362877800115629
+cat__model_reduced_silverado 2500hd,0.5347191927250222
+cat__model_reduced_wrangler,0.5045371864828164
+cat__model_reduced_wrangler unlimited sahara,0.4837401721794604
+cat__model_reduced_challenger,0.47672462706402197
+cat__model_reduced_wrangler unlimited rubicon,0.45409776363216164
+cat__model_reduced_super duty f-350 srw,0.4539414793059642
+cat__model_reduced_4runner,0.43767725772851546
+cat__model_reduced_super duty f-250,0.43626778972726854
+cat__model_reduced_f-250,0.42423941847522756
+cat__model_reduced_silverado 1500,0.421863980678226
+cat__model_reduced_tacoma,0.41799774459388866
+cat__model_reduced_silverado 1500 lt,0.41661023980718564
+cat__model_reduced_f-350,0.4140894028503854
+cat__model_reduced_silverado,0.40735379945315503
+cat__model_reduced_super duty f-250 srw,0.4055018612039515
+cat__model_reduced_f-350 super duty,0.4011100719043087
+cat__model_reduced_frontier,0.3975964907351377
+cat__model_reduced_sierra 2500hd,0.38873663803795583
+cat__model_reduced_super duty f-550 drw,0.3767932454348668
+cat__manufacturer_ram,0.3746627391241245
+cat__model_reduced_avalanche,0.373578252849552
+cat__title_status_clean,0.36331928384673384
+cat__title_status_lien,0.349463954913298
+cat__model_reduced_wrangler unlimited sport,0.34372591284156634
+cat__model_reduced_f250,0.3394287340845667
+cat__model_reduced_mx-5 miata grand touring,0.3370084193716326
+cat__model_reduced_tundra crewmax sr5 pickup,0.3231913613314485
+cat__model_reduced_camaro,0.3230134712219571
+cat__manufacturer_gmc,0.3211881791927287
+cat__model_reduced_suburban,0.32083088096480616
+cat__model_reduced_enclave,0.31714231384273933
+cat__model_reduced_tahoe,0.31712407908680734
+cat__manufacturer_rover,0.306337296694241
+cat__model_reduced_ls 460 sedan 4d,0.30383737902765795
+cat__model_reduced_cx-5,0.30106047776170786
+cat__model_reduced_sierra 1500,0.30008441819171267
+cat__model_reduced_challenger r/t coupe 2d,0.29673821800617883
+cat__model_reduced_sierra,0.2953816827286595
+cat__manufacturer_aston-martin,0.29469194669361065
+cat__model_reduced_express cargo van,0.29161586168806247
+cat__model_reduced_camaro ss coupe 2d,0.2912743734710108
+cat__model_reduced_f-250 super duty,0.2880464020601341
+cat__model_reduced_f-150,0.273804702281823
+cat__model_reduced_2500,0.27272323966866185
+cat__model_reduced_pilot,0.2670989097215031
+cat__model_reduced_sport,0.2633664182662094
+cat__model_reduced_sorento,0.26171234949101385
+cat__model_reduced_mdx sh-awd sport utility,0.259134091093505
+cat__manufacturer_lexus,0.25670519026103716
+cat__model_reduced_silverado 1500 crew,0.25382016184891576
+cat__model_reduced_wrx,0.25186467518405753
+cat__model_reduced_durango,0.24907914836803416
+cat__model_reduced_silverado 1500 double,0.24360323035974177
+cat__model_reduced_tundra double cab sr,0.2425404672393119
+cat__model_reduced_f350,0.23854258740781645
+cat__model_reduced_f250 super duty,0.23731870751982595
+cat__model_reduced_f-150 xlt,0.23484439451365235
+cat__model_reduced_pathfinder,0.22958799580724076
+cat__model_reduced_f350 super duty,0.22797835950793097
+cat__manufacturer_ford,0.22451044340298784
+cat__model_reduced_4runner sr5 sport utility,0.20736411826219034
+cat__model_reduced_sportage,0.20682624545386188
+cat__model_reduced_f150 supercrew cab xlt,0.20542543010200606
+cat__model_reduced_cr-v,0.2048723336798546
+cat__manufacturer_mercedes-benz,0.19713832140985288
+cat__model_reduced_300,0.18811451796897
+cat__model_reduced_wrangler unlimited all new,0.18656831274120012
+num__year,0.18589600477094878
+cat__model_reduced_3500,0.18306362154407146
+cat__manufacturer_toyota,0.18080819696658446
+cat__model_reduced_yukon,0.18025584897188004
+cat__model_reduced_expedition xlt sport,0.17891672093400993
+cat__manufacturer_audi,0.1715714917168296
+cat__model_reduced_mdx,0.1695501957549176
+cat__model_reduced_santa fe,0.15666321995049715
+cat__model_reduced_tucson,0.14453063897423063
+cat__model_reduced_charger,0.14362118582325661
+cat__manufacturer_bmw,0.14198673418682953
+cat__model_reduced_optima,0.13546815760566142
+cat__model_reduced_yukon xl,0.13543741946781315
+cat__manufacturer_chevrolet,0.13292891527692993
+cat__model_reduced_qx60 3.5 sport utility,0.12646950180101815
+cat__manufacturer_jaguar,0.11374186410249963
+cat__manufacturer_jeep,0.10784328237978687
+cat__model_reduced_rx 350,0.10634165860680063
+cat__model_reduced_highlander,0.10557975947131495
+cat__model_reduced_xterra,0.10035839261301081
+cat__model_reduced_accord ex-l,0.09863998881506904
+cat__model_reduced_tacoma access cab pickup,0.09569585364147055
+cat__model_reduced_beetle,0.09361717840670584
+cat__model_reduced_transit,0.0919389492728644
+cat__model_reduced_other,0.0876848159655106
+cat__model_reduced_murano,0.08694483842530654
+cat__model_reduced_vue,0.08359142328288498
+cat__manufacturer_alfa-romeo,0.0806246153429049
+cat__model_reduced_1500,0.0782953090812935
+cat__model_reduced_colorado,0.07508189258969228
+cat__manufacturer_cadillac,0.07402568626435807
+cat__title_status_rebuilt,0.07382185497413453
+cat__model_reduced_tiguan,0.0733920924061301
+cat__model_reduced_silverado 1500 ld,0.0685360402762681
+cat__model_reduced_colorado extended cab,0.06733101074263279
+cat__transmission_manual,0.06545955738130974
+cat__manufacturer_infiniti,0.061694183075312985
+cat__model_reduced_mustang,0.05964019573257068
+cat__model_reduced_wrangler sport suv 2d,0.05468669883579808
+cat__model_reduced_outback,0.05289787504109531
+cat__model_reduced_f150,0.052543217166447914
+cat__model_reduced_mkx,0.051034151074631114
+cat__fuel_other,0.0500519166294693
+cat__manufacturer_lincoln,0.04981459842218256
+cat__model_reduced_x5,0.047286330596983214
+cat__model_reduced_expedition,0.041086218014660066
+cat__model_reduced_odyssey,0.04045382431476778
+cat__model_reduced_e-class,0.03808111776624863
+cat__model_reduced_dakota,0.03530172197286944
+cat__model_reduced_silverado 1500 regular,0.033519363565670916
+cat__model_reduced_town and country,0.029449174342106664
+cat__model_reduced_5 series,0.019778708590095766
+cat__model_reduced_grand cherokee,0.01310200981163883
+cat__model_reduced_town & country,0.010942819104007842
+cat__model_reduced_mustang gt coupe 2d,0.002916077523189769
+cat__manufacturer_acura,0.0023144511423770883
+cat__model_reduced_encore,0.0008141890678370859
+cat__transmission_other,-0.0026715622378939404
+cat__model_reduced_q5,-0.00404752239760219
+cat__manufacturer_land rover,-0.010649184523621926
+cat__model_reduced_soul,-0.01763203738466695
+cat__model_reduced_forester,-0.01791854830970817
+cat__model_reduced_accord,-0.032923313989094045
+cat__manufacturer_harley-davidson,-0.03490167222430857
+cat__model_reduced_maxima,-0.03618815308595273
+cat__model_reduced_cherokee,-0.03763103616451736
+cat__fuel_gas,-0.038469393774874676
+cat__manufacturer_pontiac,-0.03945270370817817
+cat__model_reduced_mazda3,-0.04524191807217119
+cat__title_status_salvage,-0.04569286420485207
+cat__model_reduced_srx,-0.04587784478209938
+cat__model_reduced_f150 super cab xl pickup 4d,-0.050581818778549684
+cat__model_reduced_sienna,-0.054048530165151126
+cat__model_reduced_rogue,-0.05780759451434984
+cat__model_reduced_veloster,-0.05824289240458711
+cat__model_reduced_1500 crew cab big horn,-0.05918807593474457
+cat__transmission_automatic,-0.06278799496387046
+cat__model_reduced_sonata,-0.06462473105990701
+cat__model_reduced_x3,-0.07187029740852925
+cat__model_reduced_3 series,-0.07595373677150105
+cat__model_reduced_forte,-0.08826657072221399
+cat__model_reduced_tl,-0.09044622451486194
+cat__model_reduced_traverse,-0.0963106320879877
+cat__model_reduced_c-class,-0.09644700851120412
+cat__model_reduced_3 series 330i xdrive sedan,-0.10014446141848295
+cat__model_reduced_lacrosse,-0.1002763454574229
+cat__manufacturer_volvo,-0.10071284463219872
+cat__title_status_missing,-0.10517472328743745
+cat__model_reduced_xt4 sport suv 4d,-0.11238583480784217
+cat__manufacturer_subaru,-0.11728005825883592
+cat__model_reduced_rav4,-0.11765347307878099
+cat__manufacturer_dodge,-0.12225923572558499
+cat__model_reduced_es 350,-0.12514046038671664
+cat__model_reduced_flex,-0.13498316353335457
+cat__model_reduced_grand caravan,-0.14069429406947945
+cat__model_reduced_sierra 1500 regular cab,-0.1426644525556107
+cat__manufacturer_honda,-0.14330463127149926
+cat__model_reduced_legacy,-0.1516768916570348
+cat__model_reduced_explorer,-0.1550047057146259
+cat__model_reduced_impreza,-0.15520046444507232
+cat__model_reduced_civic,-0.15535704156371238
+cat__model_reduced_town car,-0.16226140708287137
+cat__model_reduced_cts,-0.16337166772452558
+cat__model_reduced_journey,-0.16618376502815965
+cat__model_reduced_civic lx,-0.1712276883217308
+cat__model_reduced_civic ex,-0.1789634497498951
+cat__model_reduced_mkz,-0.18131328487296997
+cat__model_reduced_ranger supercrew xl pickup,-0.18151091048291718
+num__age,-0.1858960047807651
+cat__model_reduced_elantra,-0.1892343222125871
+cat__model_reduced_passat,-0.1893783625728493
+cat__model_reduced_ranger,-0.18947314753556987
+cat__model_reduced_200,-0.19138627562769342
+cat__manufacturer_nissan,-0.19785186262628696
+cat__model_reduced_acadia,-0.21391673492990362
+cat__model_reduced_altima,-0.21418241729153864
+cat__manufacturer_buick,-0.22609021699017962
+cat__model_reduced_altima 2.5 s,-0.22818963351974622
+cat__model_reduced_3,-0.23603874660330543
+cat__model_reduced_explorer xlt,-0.23645430117545138
+cat__model_reduced_edge,-0.23900758898681188
+cat__fuel_hybrid,-0.240016704345175
+cat__model_reduced_prius,-0.24391152764555415
+cat__model_reduced_fit,-0.24711368573469558
+cat__model_reduced_jetta,-0.2570709195732979
+cat__manufacturer_volkswagen,-0.26773533428545376
+cat__model_reduced_renegade,-0.2699228560956524
+cat__model_reduced_328i,-0.2845617825369251
+cat__model_reduced_transit connect,-0.28874887363587626
+cat__model_reduced_ranger supercab xl pickup,-0.289366236859409
+cat__manufacturer_chrysler,-0.29533890782955907
+cat__manufacturer_mazda,-0.3048173558943551
+num__odometer,-0.311103827246665
+cat__manufacturer_mini,-0.3121149648139539
+cat__model_reduced_avalon,-0.3124191961695917
+cat__model_reduced_dart,-0.3180361987072929
+cat__model_reduced_a4,-0.320293908679634
+cat__model_reduced_equinox,-0.32281818431280196
+cat__manufacturer_hyundai,-0.3341044126264126
+cat__model_reduced_model 3 standard range,-0.34076876772548736
+cat__model_reduced_equinox lt,-0.3543555375914519
+cat__fuel_electric,-0.3630588845757737
+cat__model_reduced_compass,-0.363164420635257
+cat__manufacturer_mercury,-0.3690639476795094
+cat__model_reduced_terrain,-0.37473836812031774
+cat__model_reduced_sentra,-0.3779604706336071
+cat__model_reduced_liberty,-0.38097530367164595
+cat__manufacturer_mitsubishi,-0.3836569216067863
+cat__model_reduced_camry,-0.3852629105877506
+cat__model_reduced_accent,-0.3883956058713541
+cat__model_reduced_trailblazer,-0.40791923915047384
+cat__model_reduced_camry le,-0.42222812352628514
+cat__model_reduced_avenger,-0.42627619527116667
+cat__manufacturer_kia,-0.43178595338382264
+cat__model_reduced_escape,-0.4551710898341569
+cat__model_reduced_1500 classic regular cab,-0.4607913809905768
+cat__model_reduced_corolla le,-0.47904311981824105
+cat__model_reduced_malibu lt,-0.5164148802702977
+cat__model_reduced_patriot,-0.5226425709695013
+cat__model_reduced_pt cruiser,-0.5326998582668167
+cat__model_reduced_corolla,-0.5339094151170097
+cat__model_reduced_impala,-0.5430192397291579
+cat__model_reduced_g6,-0.546316689652103
+cat__model_reduced_malibu,-0.5609625751158418
+cat__model_reduced_fusion,-0.5722863442619476
+cat__manufacturer_fiat,-0.5752521989372794
+cat__model_reduced_escape xlt,-0.5775173398418129
+cat__model_reduced_versa,-0.5920310437125985
+cat__manufacturer_saturn,-0.5936749691145418
+cat__model_reduced_fusion se,-0.6151370570299214
+cat__title_status_parts only,-0.6357375062493216
+cat__model_reduced_cruze lt,-0.6396496855971291
+cat__model_reduced_taurus,-0.652485615948755
+cat__model_reduced_cruze,-0.6537737019426817
+cat__manufacturer_ferrari,-0.6851913518584095
+cat__model_reduced_sonic,-0.7944778233116341
+cat__model_reduced_focus,-0.8321662548366631
+cat__model_reduced_spark,-0.861361707445821
+cat__model_reduced_focus se,-0.8929030848304043
+cat__model_reduced_fiesta,-0.9543806791884161
