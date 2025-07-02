@@ -1,6 +1,8 @@
+
 # End-to-End MLOps Pipeline for Used Car Price Estimation
 
-https://sl.bing.net/iPSA0uycOI0 
+![image](https://github.com/user-attachments/assets/59650abe-163d-4f7f-9fcd-f8aa97562b03)
+ 
 The data set is available on kaggle: https://www.kaggle.com/datasets/austinreese/craigslist-carstrucks-data
 
 ## 🌟 Overview
@@ -31,7 +33,8 @@ The core idea is not just to build a model, but to build a **robust system** tha
 
 ## 🚀 Project Architecture
 
-http://localhost:8888/lab/tree/Screenshot%202025-07-02%20164109.png
+![Screenshot 2025-07-02 164109](https://github.com/user-attachments/assets/ede7d169-52bc-4181-aeb6-6af1c43aab88)
+
 
 The project is structured as an automated pipeline, where each component is a modular script or a containerized service.
 
@@ -132,4 +135,3 @@ Implement data and model monitoring to detect drift.
 Add more comprehensive unit and integration tests.
 Switch the backend store for MLflow to a more robust database like PostgreSQL.
 Generated code
-
