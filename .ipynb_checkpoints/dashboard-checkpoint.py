@@ -34,7 +34,7 @@ if st.button("Predict Price"):
     }
 
     # 2. Send the data to the API and make a request
-    response = requests.post("http://127.0.0.1:8000/predict", json=car_data)
+    response = requests.post("http://api:8000/predict", json=car_data)
 
     # 3. Gather the prediction
     prediction = response.json()

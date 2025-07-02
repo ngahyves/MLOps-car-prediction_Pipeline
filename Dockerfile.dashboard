@@ -1,0 +1,22 @@
+# Dockerfile.dashboard
+
+# 1. python image
+FROM python:3.9-slim
+
+# 2. Working directory
+WORKDIR /app
+
+# 3. Dashboard dependencies
+COPY requirements.dashboard.txt .
+
+# 4. Install
+RUN pip install --no-cache-dir -r requirements.dashboard.txt
+
+# 5. Copy the dashboard code
+COPY dashboard.py .
+
+# 6. Exposer the port to streamlit
+EXPOSE 8501
+
+# 7. run the streamlit
+ENTRYPOINT ["streamlit", "run", "dashboard.py", "--server.port=8501", "--server.address=0.0.0.0"]

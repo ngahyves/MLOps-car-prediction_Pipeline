@@ -1,7 +1,30 @@
+# docker-compose.yml
+
 version: '3.8'
+
 services:
+  # --- API ---
   api:
-    build: .
-    container_name: car-price-api
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    image: rickyr7/car-price-api:latest # Use the API
+    container_name: car_price_api
     ports:
       - "8000:8000"
+    
+    restart: always 
+
+  # --- Step 2: Dashboard Streamlit ---
+  dashboard:
+    build:
+      context: .
+      # Specific docker file for the dasboard
+      dockerfile: Dockerfile.dashboard 
+    container_name: car_price_dashboard
+    ports:
+      - "8501:8501"
+    # The dashboard relies on the API to function.
+    depends_on:
+      - api
+    restart: always
