@@ -42,4 +42,3 @@ jobs:
           context: .
           push: true
           tags: rickyr7/car-price-api:latest
-	# End
